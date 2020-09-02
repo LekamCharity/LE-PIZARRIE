@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    font-family: sans-serif;
+    color:white;
+    background-color: rgb(19, 18, 18);
+    padding: 0;
+    margin: 0;
+    font-size: x-large;
+    background-image: url(images/goodies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+#navigation-bar{
+    display:flex;
+    background-color:rgb(8, 65, 8);
+    font-size-adjust: 10px;
+    color:rgb(255, 255, 255);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#navigate{
+     text-align: center;
+     
+}
+#navigate ul{
+display: flex;
+padding-right: -60px;
+
+}
+#navigate ul li{
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    margin-left: 10px;
+}
+.active, #navigate ul li:hover{
+    background-color: rgb(12, 143, 34);
+    border-radius: 5px;
+}
+#navigate ul li a{
+    color:white
+        
+}
+#navigate ul li a:hover{
+    color:rgb(123, 230, 123);
+}
+.footer-bottom{
+background:#19191a;
+color: #928d8d;
+height:50px;
+width:100%;
+text-align:center;
+position: absolute;
+bottom: 0px;
+left:0px;
+padding-top: 20px;
+}
