@@ -5,27 +5,571 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="bootsrap.css/bootstrap-grid.css">
   <script src="https://kit.fontawesome.com/fd36abf95c.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
   <title>LE-PIZARRIE</title>
 </head>
 
 <body>
-  <div id="navigation-bar">
-    <div id="navigate">
-      <ul>
-        <li class="active"><a href="index.html">Welcome</a>
-          <li><a href="home.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact us</a></li>
-      </ul>
+<!--Main Navigation-->
+<header>
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+      <a class="navbar-brand" style="color: black;" href="#">
+        <strong>LE-PIZARRIE</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+        aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-7" style="color: black;">
+        <ul class="navbar-nav mr-auto" style="color: black;">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: black;">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item" style="color: black;">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item" style="color: black;">
+            <a class="nav-link" href="#">Order</a>
+          </li>
+        </ul>
+        <form class="form-inline" style="color: black;">
+          <div class="md-form my-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" style="color: black;">
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Section -->
+  <div class="view jarallax" data-jarallax='{"speed": 0.2}'
+    style="background-image: url(./images/banner.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+    <div class="mask rgba-white-light">
+      <div class="container h-100 d-flex justify-content-center align-items-center">
+        <div class="row pt-5 mt-3">
+          <div class="col-md-12 mb-3">
+            <div class="intro-info-content text-center">
+              <h1 class="display-3 mb-5 wow fadeInDown" data-wow-delay="0.3s">LEE-
+                <a class="indigo-text font-weight-bold">PIZARRIE</a>
+              </h1>
+              <h5 class="text-uppercase mb-5 mt-1 font-weight-bold wow fadeInDown" data-wow-delay="0.3s">Free
+                delivery & special prices</h5>
+              <a class="btn btn-indigo btn-lg wow fadeInDown" data-wow-delay="0.3s">ORDER NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-  <h1>LE-PIZARRIE</h1>
-  <h1>COME ONE COME ALL!!</h1>
-  <h2>Welcome to our Pizza Place<br>Get the tastiest pizza you'd ever tasted</h2>
-  <h3>We offer a wide variety of pizza and servings</h3>
-<div class="footer-bottom">
-  <small>&copy;Copyright 2020 pizarrie | Designed by Lekam Charity</small>
-</div>
+
+</header>
+<!--Main Navigation-->
+
+
+<!--Main Layout-->
+<main>
+
+  <div class="container">
+
+    <!--Section: Products v.3-->
+    <section class="section pb-3 wow fadeIn" data-wow-delay="0.3s">
+
+      <!--Section heading-->
+      <h1 class="font-weight-bold text-center h1 my-5">Our Products.</h1>
+      <!--Section description-->
+      <p class="text-center grey-text mb-5 mx-auto w-responsive">Welcome to our Pizza Place<br>Get the tastiest pizza you'd ever tasted.We offer a wide variety of pizza and servings.</p>
+      <!--Grid row-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card card-ecommerce">
+
+            <!--Card image-->
+            <div class="view overlay z-depth-1">
+              <img src="images/peperoni.jpg"
+                class="card-img-top" alt="">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body text-center no-padding">
+              <!--Category & Title-->
+              <h4 class="card-title">
+                <strong>
+                  <a href="">Peperoni</a>
+                </strong>
+              </h4>
+
+            </div>
+            <!--Card content-->
+
+          </div>
+          <!--Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card card-ecommerce">
+
+            <!--Card image-->
+            <div class="view overlay z-depth-1">
+              <img src="images/cheese.jpg"
+                class="card-img-top" alt="">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body text-center no-padding">
+              <!--Category & Title-->
+              
+              <h4 class="card-title">
+                <strong>
+                  <a href="">cheese</a>
+                </strong>
+              </h4>
+
+            </div>
+            <!--Card content-->
+
+          </div>
+          <!--Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card card-ecommerce">
+
+            <!--Card image-->
+            <div class="view overlay z-depth-1">
+              <img src="images/veggie.jpg"
+                class="card-img-top" alt="">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body text-center no-padding">
+              <!--Category & Title-->
+              <h4 class="card-title">
+                <strong>
+                  <a href="">veggie pizza</a>
+                </strong>
+              </h4>
+
+            </div>
+            <!--Card content-->
+
+          </div>
+          <!--Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Fourth column-->
+        <div class="col-lg-3 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card card-ecommerce">
+
+            <!--Card image-->
+            <div class="view overlay z-depth-1">
+              <img src="images/meat.jpg"
+                class="card-img-top" alt="">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+            <!--Card image-->
+
+            <!--Card content-->
+            <div class="card-body text-center no-padding">
+              <!--Category & Title-->
+              <h4 class="card-title">
+                <strong>
+                  <a href="">meat pizza</a>
+                </strong>
+              </h4>
+
+            </div>
+            <!--Card content-->
+
+          </div>
+          <!--Card-->
+
+        </div>
+        <!--Fourth column-->
+
+      </div>
+      <!--Grid row-->
+
+    </section>
+    <!--Section: Products v.3-->
+
+
+<div class="container">
+
+  <!--Section: Products v.3-->
+  <section class="section pb-3 wow fadeIn" data-wow-delay="0.3s">
+    <!--Grid row-->
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4">
+
+        <!--Card-->
+        <div class="card card-ecommerce">
+
+          <!--Card image-->
+          <div class="view overlay z-depth-1">
+            <img src="images/hawaiian2.jpg" class="card-img-top" alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card image-->
+
+          <!--Card content-->
+          <div class="card-body text-center no-padding">
+            <!--Category & Title-->
+            <h4 class="card-title">
+              <strong>
+                <a href="">Hawaiian Pizza</a>
+              </strong>
+            </h4>
+
+          </div>
+          <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4">
+
+        <!--Card-->
+        <div class="card card-ecommerce">
+
+          <!--Card image-->
+          <div class="view overlay z-depth-1">
+            <img src="images/margherita.jpg" class="card-img-top" alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card image-->
+
+          <!--Card content-->
+          <div class="card-body text-center no-padding">
+            <!--Category & Title-->
+
+            <h4 class="card-title">
+              <strong>
+                <a href="">Margherita Pizza</a>
+              </strong>
+            </h4>
+
+          </div>
+          <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4">
+
+        <!--Card-->
+        <div class="card card-ecommerce">
+
+          <!--Card image-->
+          <div class="view overlay z-depth-1">
+            <img src="images/BBQ chicken.jpg" class="card-img-top" alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card image-->
+
+          <!--Card content-->
+          <div class="card-body text-center no-padding">
+            <!--Category & Title-->
+            <h4 class="card-title">
+              <strong>
+                <a href="">BBQ Chicken</a>
+              </strong>
+            </h4>
+
+          </div>
+          <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+      </div>
+      <!--Grid column-->
+
+      <!--Fourth column-->
+      <div class="col-lg-3 col-md-6 mb-4">
+
+        <!--Card-->
+        <div class="card card-ecommerce">
+
+          <!--Card image-->
+          <div class="view overlay z-depth-1">
+            <img src="images/supreme.jpg" class="card-img-top" alt="">
+            <a>
+              <div class="mask rgba-white-slight"></div>
+            </a>
+          </div>
+          <!--Card image-->
+
+          <!--Card content-->
+          <div class="card-body text-center no-padding">
+            <!--Category & Title-->
+            <h4 class="card-title">
+              <strong>
+                <a href="">Supreme pizza</a>
+              </strong>
+            </h4>
+
+          </div>
+          <!--Card content-->
+
+        </div>
+        <!--Card-->
+
+      </div>
+      <!--Fourth column-->
+
+    </div>
+    <!--Grid row-->
+
+  </section>
+  <!--Section: Products v.3-->
+
+
+
+    <hr class="mb-5 mt-4">
+
+    <!--Section: Products v.5-->
+    <section class="section pb-3 wow fadeIn" data-wow-delay="0.3s">
+
+      <!-- order section -->
+      
+      <div class="container-fluid order" id="make-order">
+        <div class="order-overlay">
+          <div class="controls-top text-center" id="Order-now">
+            <h2>ORDER NOW!!!</h2>
+          </div>
+          <div class="row">
+            <div class="col-sm-5">
+              <form action="">
+                <label for="select">Select Your Flavor</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name" id="name">
+                  <!-- <option selected value="choose">Choose your flavor</option> -->
+                  <option value="Peperoni Pizza">Peperoni Pizza</option>
+                  <option value="Cheese Pizza">Cheese Pizza</option>
+                  <option value="Veggie Pizza">Veggie Pizza</option>
+                  <option value="Meat Pizza">Meat Pizza</option>
+                  <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+                  <option value="Margherita Pizza">Margherita Pizza</option>
+                  <option value="BBQ Chicken Pizza">BBQ Chicken</option>
+                  <option value="Supreme Pizza">Supreme Pizza</option>
+                </select>
+                <label for="select">Select Size</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <option selected value="0">Select size here</option>
+                  <option value="large">Large -- sh. 1500</option>
+                  <option value="medium">Medium -- sh. 950</option>
+                  <option value="small">Small -- sh. 650</option>
+                </select>
+                <label for="crust">Choose your favorite Crust</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                  <option selected value="0">Select your preferred crust!</option>
+                  <option value="Crispy">Crispy --- sh. 300</option>
+                  <option value="Stuffed">Stuffed --- sh. 200</option>
+                  <option value="Gluten-free">Gluten-free --- sh. 250</option>
+                  <option value="Flatbread">Flatbread --- sh. 300</option>
+                  <option value="Focaccia">Focaccia --- sh. 200</option>
+                </select>
+                <label for="Toppings">Select Your Toppings at sh. 150 each</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Onions" value="Onions" name="toppings">
+                  <label class="custom-control-label" for="Onions">Onions</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Bacon</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                  <label class="custom-control-label" for="Sausage">Sausage</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Black olives" value="Black olives" name="toppings">
+                  <label class="custom-control-label" for="Garlic">Black olives</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Green peppers" value="Green peppers" name="toppings">
+                  <label class="custom-control-label" for="Green peppers">Green peppers</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Raspberry" value="Raspberry" name="toppings">
+                  <label class="custom-control-label" for="Raspberry">Raspberry</label>
+                </div>
+                <br><br>
+                <button type="submit" class="btn btn-secondary bg-secondary proceed">Proceed</button>
+      
+              </form>
+            </div>
+            <div class="col-sm-7">
+              <div id="infor">
+                <h1 class="h6-reponsive white-text text-lowercase pulse">Check Here</h6>
+              </div>
+              <div class="choice">
+                <h2>Your Order is:</h2>
+                <div id="your-orders">
+                  <table class="table table-sm  pizzatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Topping</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ordersmade">
+                      <tr>
+                        <td id="pizzaname"></td>
+                        <td id="pizzasize"></td>
+                        <td id="pizzacrust"></td>
+                        <td id="pizzatopping"></td>
+                        <td id="totals"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <p id="pizzatotal"></p>
+                  <p id="totalbill"></p>
+                  <p id="addedprice">Delivery will cost sh. 150</p>
+                  <p id="finallmessage"></p>
+                </div>
+                <button class="btn btn-secondary  bg-secondary addPizza">Add Pizza</button>
+                <button class="btn btn-secondary bg-secondary " id="checkout">Checkout</button>
+                <button class="btn btn-secondary deliver bg-secondary ">Home delivery?</button>
+              </div>
+              <div class="delivery">
+                <form action="" id="form">
+                  <div class="form-group">
+                    <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                    <input type="number" id="phone" class="form-control mb-3" placeholder="Phone Number">
+                    <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                    <button class="btn btn-secondary bg-secondary " id="final-order">Confirm Order</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<!--Footer-->
+<footer class="page-footer pt-4 mt-4 text-center text-md-left mdb-color lighten-2">
+   
+    <div class="footer-section contact-form">
+      <h2>Contact us</h2>
+      <br>
+      <form action="#" method="post">
+        <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+        <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+        <button type="submit" class="btn btn-big">
+          <i class="fas fa-envelope"></i>
+          send
+        </button>
+      </form>
+    </div>
+  <hr>
+
+  <!--Social buttons-->
+  <div class="social-section text-center">
+    <ul class="list-unstyled list-inline">
+
+      <li class="list-inline-item">
+        <a class="btn-floating btn-fb">
+          <i class="fab fa-facebook-f"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-tw">
+          <i class="fab fa-twitter"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-gplus">
+          <i class="fab fa-google-plus-g"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-li">
+          <i class="fab fa-linkedin-in"> </i>
+        </a>
+      </li>
+      <li class="list-inline-item">
+        <a class="btn-floating btn-dribbble">
+          <i class="fab fa-dribbble"> </i>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+  <!--/.Social buttons-->
+
+  <!--Copyright-->
+  <div class="footer-bottom">
+    <small>&copy;Copyright 2020 pizarrie | Designed by Lekam Charity</small>
+  </div>
+  <!--/.Copyright-->
+
+</footer>
+<!--/.Footer-->
+
 </body>
 </html>
