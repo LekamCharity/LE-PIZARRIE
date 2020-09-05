@@ -7,6 +7,8 @@ Lekam Charity
 ## Description
 This Website is about a pizza Inn where by customers can be able to order their pizza online and it also shows variety of the pizza's we offer. Through this app also the customers can order and get their pizza delivered.
 
+
+
 ## Setup/Installation Requirements
 
 *  Open Terminal {Ctrl+Alt+T}
