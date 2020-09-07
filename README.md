@@ -42,4 +42,5 @@ The website is expected to function as follows:
  Incase of any questions or any new ideas that can help me better this page kindly contact me on  <lekamcharity@gmail.com
 
   ### License
+  [MIT](https://github.com/LekamCharity/LE-PIZARRIE/blob/master/LICENSE.md)
 Copyright (c) 2020 **Lekam Charity**
