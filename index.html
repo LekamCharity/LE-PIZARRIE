@@ -17,7 +17,7 @@
 
 <body>
 <header>
-  
+      
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
     <div class="container">
@@ -36,10 +36,10 @@
             </a>
           </li>
           <li class="nav-item" style="color: black;">
-            <a class="nav-link" href="#">Products</a>
+            <a class="nav-link" href="#product">Products</a>
           </li>
           <li class="nav-item" style="color: black;">
-            <a class="nav-link" href="#">Order</a>
+            <a class="nav-link" href="#make-order">Order</a>
           </li>
         </ul>
       </div>
@@ -54,12 +54,12 @@
         <div class="row pt-5 mt-3">
           <div class="col-md-12 mb-3">
             <div class="intro-info-content text-center">
-              <h1 class="display-3 mb-5 wow fadeInDown" data-wow-delay="0.3s">LEE-
+              <h1 class="display-3 mb-5 wow fadeInDown" data-wow-delay="0.3s">LE-
                 <a class="indigo-text font-weight-bold">PIZARRIE</a>
               </h1>
               <h5 class="text-uppercase mb-5 mt-1 font-weight-bold wow fadeInDown" data-wow-delay="0.3s">
                 Delivery & special prices</h5>
-              <a class="btn btn-indigo btn-lg wow fadeInDown" data-wow-delay="0.3s">ORDER NOW</a>
+              <!-- <a class="btn btn-indigo btn-lg wow fadeInDown" data-wow-delay="0.3s" id="#make-order">ORDER NOW</a> -->
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@
 
 
 <!--Main Layout-->
-  <div class="container">
+  <div class="container-fluid"  id="product">
     <section class="section pb-3 wow fadeIn" data-wow-delay="0.3s">
       <h1 class="font-weight-bold text-center h1 my-5">Our Products.</h1>
       <p class="text-center grey-text mb-5 mx-auto w-responsive">Welcome to our Pizza Place<br>Get the tastiest pizza you'd ever tasted.We offer a wide variety of pizza and servings.</p>
@@ -161,7 +161,7 @@
     <!--Section: Products v.3-->
 
 
-<div class="container">
+<div class="container-fluid">
   <!--Section: Products v.3-->
   <section class="section pb-3 wow fadeIn" data-wow-delay="0.3s">
     <div class="row">
@@ -262,49 +262,51 @@
                 <label for="select">Select Your Flavor</label>
                 <select class="browser-default custom-select custom-select-md mb-3 name" id="name">
                   <!-- <option selected value="choose">Choose your flavor</option> -->
-                  <option value="Chocolate Pizza">Chocolate Pizza</option>
-                  <option value="Greek Pizza">Greek Pizza</option>
-                  <option value="Neapolitan Pizza">Neapolitan Pizza</option>
-                  <option value="Iranian Pizza">Iranian Pizza</option>
-                  <option value="York-style Pizza">York-style Pizza</option>
-                  <option value="Spaghetti Pizza">Spaghetti Pizza</option>
+                  <option value="Peri Peri">Peri Peri Pizza</option>
+                  <option value="Cheese pizza">Cheese Pizza</option>
+                  <option value="Veggie Pizza">Veggie Pizza</option>
+                  <option value="Meat Pizza">Meat Pizza</option>
+                  <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+                  <option value="Margherita Pizza">Margherita Pizza</option>
+                  <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+                  <option value="Supreme Pizza">Supreme Pizza</option>
                 </select>
                 <label for="select">Select Size</label>
                 <select class="browser-default custom-select custom-select-md mb-3" id="size">
                   <option selected value="0">Select size here</option>
-                  <option value="large">Large -- sh. 1500</option>
-                  <option value="medium">Medium -- sh. 950</option>
-                  <option value="small">Small -- sh. 650</option>
+                  <option value="large">Large -- sh. 1200</option>
+                  <option value="medium">Medium -- sh. 750</option>
+                  <option value="small">Small -- sh. 550</option>
                 </select>
                 <label for="crust">Choose your favorite Crust</label>
                 <select class="browser-default custom-select custom-select-md mb-3" id="crust">
                   <option selected value="0">Select your preferred crust!</option>
-                  <option value="Crispy">Crispy --- sh. 300</option>
-                  <option value="Stuffed">Stuffed --- sh. 200</option>
-                  <option value="Gluten-free">Gluten-free --- sh. 250</option>
+                  <option value="Crispy">Crispy --- sh. 200</option>
+                  <option value="Stuffed">Stuffed --- sh. 250</option>
+                  <option value="Gluten-free">Gluten-free --- sh. 150</option>
                   <option value="Flatbread">Flatbread --- sh. 300</option>
                   <option value="Focaccia">Focaccia --- sh. 200</option>
                 </select>
                 <label for="Toppings">Select Your Toppings at sh. 100 each</label><br>
                 <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Pineapple" value="Pineapple" name="toppings">
-                  <label class="custom-control-label" for="Pineapple">Pineapple</label>
+                  <input type="checkbox" class="custom-control-input" id="Pineapple" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Bacon</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Pepperoni" value=" Pepperoni" name="toppings">
-                  <label class="custom-control-label" for="Pepperoni">Pepperoni</label>
+                  <input type="checkbox" class="custom-control-input" id="Onions" value="Onions" name="toppings">
+                  <label class="custom-control-label" for="Onions">Onions</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
                   <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
                   <label class="custom-control-label" for="Sausage">Sausage</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Garlic " value="Garlic" name="toppings">
+                  <input type="checkbox" class="custom-control-input" id="Black olives" value="Black olives" name="toppings">
                   <label class="custom-control-label" for="Garlic">Garlic</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
-                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
-                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                  <input type="checkbox" class="custom-control-input" id="Green peppers" value="Green peppers" name="toppings">
+                  <label class="custom-control-label" for="Green peppers">Green peppers</label>
                 </div>
                 <div class="custom-control custom-checkbox custom-control-inline">
                   <input type="checkbox" class="custom-control-input" id="Raspberry" value="Raspberry" name="toppings">
@@ -369,7 +371,7 @@
 
       
 <!--Footer-->
-<footer class="page-footer pt-4 mt-4 text-center text-md-left mdb-color lighten-2">
+<footer class="page-footer pt-4 mt-4 text-center text-md-left mdb-color lighten-2" style="text-align: center;" >
 <div class="contacts">
   <h4>Find Us!!!!</h4>
   <p><i class="fa fa-map-marker fa-2x">&nbsp;Junction Mall,first floor</i></p>
@@ -415,6 +417,9 @@
 
 </footer>
 <!--/.Footer-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
