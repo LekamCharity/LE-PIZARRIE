@@ -30,15 +30,13 @@ The website is expected to function as follows:
 *  Simple single page website,just run the link and scroll through.
 
 ## Technologies Used
-* HTML.
+* HTML - For building the user interface
 
-* CSS.
+* CSS - For styling the user interface
 
-* JavaScript.
+* Javascript - For document object manipulation
 
-* Bootsrap.
-
-
+* Bootstrap - For styling the interface
 
 ## Support and contact details
  Incase of any questions or any new ideas that can help me better this page kindly contact me on  <lekamcharity@gmail.com
