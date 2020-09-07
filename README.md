@@ -38,7 +38,6 @@ The website is expected to function as follows:
 
 * Bootsrap.
 
-* JQuery.
 
 
 ## Support and contact details
