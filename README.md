@@ -25,7 +25,7 @@ The website is expected to function as follows:
 
 * code . or atom . based on the text editor you have.
 
-*  Here is a live link to the website:- <https://github.com/LekamCharity/LE-PIZARRIE
+*  Here is a LIVE LINK to the website:- <https://github.com/LekamCharity/LE-PIZARRIE
 
 *  Simple single page website,just run the link and scroll through.
 
