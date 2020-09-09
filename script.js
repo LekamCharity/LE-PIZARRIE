@@ -28,13 +28,13 @@ $(document).ready(function () {
         price = 0;
         break;
       case 'large':
-        price = 1500;
+        price = 1200;
         break;
       case "medium":
-        price = 950;
+        price = 750;
         break;
       case "small":
-        price = 700;
+        price = 550;
       default:
         console.log("error");
     }
@@ -44,13 +44,13 @@ $(document).ready(function () {
         c_price = 0;
         break;
       case "Crispy":
-        c_price = 300;
-        break;
-      case "Stuffed":
         c_price = 200;
         break;
-      case "Gluten-free":
+      case "Stuffed":
         c_price = 250;
+        break;
+      case "Gluten-free":
+        c_price = 150;
         break;
       case "Flatbread":
         c_price = 300;
@@ -98,13 +98,13 @@ $(document).ready(function () {
           price = 0;
           break;
         case 'large':
-          price = 1500;
+          price = 1200;
           break;
         case "medium":
-          price = 950;
+          price = 750;
           break;
         case "small":
-          price = 700;
+          price = 550;
         default:
           console.log("error");
       }
@@ -114,13 +114,13 @@ $(document).ready(function () {
           c_price = 0;
           break;
         case "Crispy":
-          c_price = 300;
-          break;
-        case "Stuffed":
           c_price = 200;
           break;
-        case "Gluten-free":
+        case "Stuffed":
           c_price = 250;
+          break;
+        case "Gluten-free":
+          c_price = 150;
           break;
         case "Flatbread":
           c_price = 300;
