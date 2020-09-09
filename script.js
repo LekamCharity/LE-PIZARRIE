@@ -65,7 +65,7 @@ $(document).ready(function () {
 
     if ((pSize == "0") && (pCrust == "0")) {
       $("button.proceed").show();
-      $("#infor   ").show();
+      $("#infor").show();
       $("div.choice").hide();
       alert("Please select the Pizza size and crust");
     }
@@ -74,6 +74,7 @@ $(document).ready(function () {
       $("button.proceed").hide();
       $("#infor").hide();
       $("div.choice").slideDown(1200);
+
     }
 
     total = price + c_price + topping_value;
@@ -83,9 +84,9 @@ $(document).ready(function () {
     $("#pizzaname").html($(".name option:selected").val());
     $("#pizzasize").html($("#size option:selected").val());
     $("#pizzacrust").html($("#crust option:selected").val());
-    $("#pizzatopping").html(pTopping.join(", "));
+    $("#pizzatopping").html(pTopping.join(","));
     $("#totals").html(total);
-
+    
     // add button
     $("button.addPizza").click(function () {
       let pName = $(".name option:selected").val();
@@ -139,8 +140,12 @@ $(document).ready(function () {
 
 
       newOrder = new GetPizza(pName, pSize, pCrust, pTopping, total);
-      $("#ordersmade").append(`<tr><td id="pizzaname">` + newOrder.name + `</td><td id="pizzasize"> ` + newOrder.size + `</td><td id="pizzasize"> ` + newOrder.crust + `</td><td id="pizzasize"> ` + newOrder.topping + `</td><td id="pizzasize"> ` + newOrder.total + `</td></tr>`);
+      $("#ordersmade").append(`<tr><td id="pizzaname">` + newOrder.name + `</td><td id="pizzasize"> `
+        + newOrder.size + `</td><td id="pizzasize"> ` + newOrder.crust + `</td><td id="pizzasize"> `
+        + newOrder.topping + `</td><td id="pizzasize"> ` + newOrder.total + `</td></tr>`);
+
     })
+
 
     $("button#checkout").click(function () {
       $("button#checkout").hide();
